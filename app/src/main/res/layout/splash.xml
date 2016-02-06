@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layoutSplash"
+    android:background="@drawable/b3">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp"
+        android:paddingBottom="10dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/welcome_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NOTIFY"
+            android:textAllCaps="false"
+            android:fontFamily="Roboto"
+
+            android:textSize="15pt"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginRight="2dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColorHint="#3A96B5" />
+
+        <TextView
+            android:id="@+id/welcome_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Me"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:fontFamily="Roboto"
+
+            android:textSize="15pt"
+            android:textColor="#FF4081"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColorHint="#3A96B5" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp" android:id="@+id/imageView"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="250dp"
+        android:max="100"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="50dip"
+        android:progressDrawable="@drawable/progress_bar"/>
+
+   </LinearLayout>

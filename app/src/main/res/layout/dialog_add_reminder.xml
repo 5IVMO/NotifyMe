@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="260dp"
+    tools:context="com.example.hii.smarteducation.AddTaskFragment"
+    android:background="@drawable/b3"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+         <EditText android:id="@+id/editText_Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="5dp"
+            android:paddingTop="20dp"
+            android:textColor="#ffffff"
+            android:hint="Add Title"
+            android:textColorHint="#FFF8F0" />
+
+        <EditText android:id="@+id/editText_Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#ffffff"
+        android:hint="Set Date"
+        android:textColorHint="#FFF8F0" />
+
+    <EditText android:id="@+id/editText_Time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#ffffff"
+        android:hint="Set Time"
+        android:textColorHint="#ffffff" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Reminder"
+        android:id="@+id/button_addTask"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_boarder"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:textSize="18dp"/>
+</LinearLayout>
