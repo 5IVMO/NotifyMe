@@ -1,0 +1,55 @@
+PROJECT PROPOSAL
+
+PERSONAL INFORMATION
+
+Name: Owais Ur Rehman
+Seat#: 11177
+Batch: Android
+
+PROJECT TITLE:
+               “Notify Me”
+               
+DESCRIPTION:
+
+Simple android app to manage personal tasks and you can set reminders based on date and time.
+You can also manage your daily life tasks just add task in todo list and when you start doing any task just click on start button and it will go to progress list and when you finished just click on done and the task will go to done list.
+Now at the end of the day, week or month you can see your progress how much task you completed and so on. 
+Remember you first need to register yourself through signup screen.
+
+Note: There is an issue with image uploading, for large size images android gives out of memory error.
+
+TOPICS COVERED:
+
+In this project many topics from our course outline was covered. Some of them are listed below
+
+1.	Material Design
+    1.	Toolbar
+    2.	Navigation Drawer
+    3.	Tab layout
+    4.	Floating Action Button
+    5.	Pager Adapter
+2.	Firebase
+    1.	User Authentication
+    2.	Data Saved
+    3.	Data Retrieval
+3.	Dialogs
+    1.	Progress Dialog
+    2.	Alert Dialog
+    3.	Time Picker Dialog
+    4.	Date Picker Dialog
+4.	Intents
+    1.	Implicit Intents
+    2.	Explicit Intents
+    
+5.	Shared Preferences
+6.	Custom list view
+7.	Fragments
+8.	List Fragments
+9.	Services
+10.	AsyncTask
+11.	Notification
+12.	Alarm Manager
+13.	Broadcast Receiver
+14.	Spinner
+15.	Splash Screen
+16.	Progress bar
